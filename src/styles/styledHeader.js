@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export const Header = styled.header`
-padding: 36px 34px;
+padding: 16px 24px;
 margin: auto;
 width: 100%;
 
-@media(max-width:500px){
+@media(max-width:700px){
     padding:0px;
 }
 
@@ -18,7 +18,7 @@ background-repeat: no-repeat;
 height: 900px;
 margin: auto;
 
-@media(max-width:500px){
+@media(max-width:700px){
     background-image:url('https://raw.githubusercontent.com/RobsonLima2/Recipes/main/src/assets/pexels-rachel-claire-4846295.png') ;
     width: 100%;
     background-size:cover ;
@@ -109,7 +109,6 @@ height:68px;
         border-bottom: 3px solid black;       
         width:20px;
         height: 8px;
-        
     }
 
 @media(max-width:850px){
@@ -121,7 +120,7 @@ height:68px;
 
 export const Img = styled.img`
 
-@media(max-width:1060px){
+@media(max-width:850px){
    display: none;
 }
 
