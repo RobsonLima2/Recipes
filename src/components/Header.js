@@ -8,6 +8,7 @@ function Header() {
             <ul>
                 <li>ABOUT</li>
                 <li>RECIPES</li>
+                <li>RECIPES</li>
             </ul>
         </nav>
       <img src={foto} alt=""/>
