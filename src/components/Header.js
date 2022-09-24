@@ -1,18 +1,27 @@
 import React from "react";
-import foto from "../assets/Grupo de máscara 2@2x"
+import RC from "../assets/RC.svg"
+import * as S from "../styles/styledHeader"
 
 function Header() {
   return (
-    <div>
-        <nav>
-            <ul>
-                <li>ABOUT</li>
-                <li>RECIPES</li>
-                <li>RECIPES</li>
-            </ul>
-        </nav>
-      <img src={foto} alt=""/>
-    </div>
+    <S.Header>
+      <S.Background>
+        <S.DivNav>
+          <img src={RC} alt="logo" />
+          <S.Nav>
+            <S.UlNav>
+              <li>ABOUT</li>
+              <li>RECIPES</li>              
+            </S.UlNav>
+            <S.Btn>SUBSCRIBE</S.Btn>
+          </S.Nav>
+        </S.DivNav>
+        <S.H1>RECIPES</S.H1>
+
+
+      </S.Background>
+    </S.Header>
+
   );
 }
 

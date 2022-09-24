@@ -1,12 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
 
 import { GlobalStyle } from "./styles/styledGlobal";
 function App() {
   return (
     <div>
       <GlobalStyle/>
-      <h1>RC</h1>
-      <h2>oioioi</h2>
+      < Header />
     </div>
   );
 }
