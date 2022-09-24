@@ -6,6 +6,7 @@ function App() {
     <div>
       <GlobalStyle/>
       <h1>RC</h1>
+      <h2>oioioi</h2>
     </div>
   );
 }
