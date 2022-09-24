@@ -7,7 +7,7 @@ function Header() {
     <S.Header>
       <S.Background>
         <S.DivNav>
-          <img src={RC} alt="logo" />
+          <S.Img src={RC} alt="logo" />
           <S.Nav>
             <S.UlNav>
               <li>ABOUT</li>
@@ -15,6 +15,10 @@ function Header() {
             </S.UlNav>
             <S.Btn>SUBSCRIBE</S.Btn>
           </S.Nav>
+          <S.DivHamburguer>
+            <div></div>
+            <div></div>
+          </S.DivHamburguer>
         </S.DivNav>
         <S.H1>RECIPES</S.H1>
 
