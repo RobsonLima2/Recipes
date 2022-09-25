@@ -37,10 +37,7 @@ padding: 55px 63px;
     justify-content: flex-end;
 }
 
-
-
 `
-
 
 export const Nav = styled.nav`
 display: flex;
